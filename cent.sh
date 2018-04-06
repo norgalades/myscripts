@@ -1,5 +1,7 @@
 #!/bin/bash 
 
+#This script uses Linux's ent command to compute entropy for forensics analyses
+
 if [ "$1" == "--help" ]
 then
 	echo "Usage: cent.sh [--filter value] input_dir output_fileName"
